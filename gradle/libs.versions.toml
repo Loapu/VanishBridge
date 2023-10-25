@@ -1,0 +1,11 @@
+[versions]
+checkerframework = "3.33.0"
+jetbrains-annotations = "23.1.0"
+velocity = "3.2.0-SNAPSHOT"
+paper = "1.19.4-R0.1-SNAPSHOT"
+
+[libraries]
+checker-qual = { module = "org.checkerframework:checker-qual", version.ref = "checkerframework" }
+jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "jetbrains-annotations" }
+velocity = { module = "com.velocitypowered:velocity-api", version.ref = "velocity" }
+paper = { module = "io.papermc.paper:paper-api", version.ref = "paper" }

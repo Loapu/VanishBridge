@@ -1,0 +1,6 @@
+name: ${name}
+version: ${version}
+main: ${group}.paper.VanishBridge
+api-version: 1.19
+authors: [Loapu]
+description: A plugin that communicates the vanished state of players to your proxy.
